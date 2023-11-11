@@ -1,0 +1,189 @@
+*{
+    margin:0;
+}
+body{
+    background-color: aqua;
+}
+header{
+    height:70px;
+    width:100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    color: #E5E3E2 ;
+    
+
+}
+header img{
+    width: 120px;
+}
+header .head-loc{
+    display: flex;
+    height: fit-content;
+    width: 300px;
+}
+.head-loc span{
+    font-size: 30px;
+
+}
+.loc-name p{
+    font-family: 'Gabarito',cursive;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0%;
+}
+.loc-name h5{
+    font-family: 'Hind', sans-serif; 
+    font-size: 15px;
+}
+.flag{
+    display: flex;
+    align-items: center
+}
+.flag img{
+    height:15px ;
+    width: 20px;
+    position: relative;
+    bottom: 3px;
+}
+.sign-in{
+    height: fit-content;
+}
+.sign-in p{
+    font-family: 'Gabarito',cursive;
+    font-weight: lighter;
+    font-size: 10px;
+    margin: 0;
+
+}
+.sign-in h5{
+    font-family: 'Hind', sans-serif; 
+    font-size: 15px;
+
+
+}
+.cart{
+    width: 80px;
+}
+.cart a{
+    text-decoration: none;
+    color: #E5E3E2;
+    height: fit-content;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+.sidebar{
+    position: absolute;
+    left:0%;
+    top: 150px;
+    height: 1500px;
+    width: 300px;
+    border-right:1px black solid ;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+}
+ .s1{
+    position: absolute;
+    left: 0;
+    
+}
+.s2{
+    position: absolute;
+    top:250px;
+}
+.s3{
+    position: absolute;
+    top: 520px;
+}
+.s4{
+    position: absolute;
+    top: 720px;
+}
+.s5{
+    position: absolute;
+    top: 920px;
+}
+.s6{
+    position: absolute;
+    top: 1000px;
+}
+.kids{
+    position: absolute;  
+      left: 30%;
+     
+}
+.kidsimg{
+   width: 80%;
+    position: absolute;
+     top: 200px;
+    left: 20%; 
+     display: flex; 
+     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+.kidsimg img{
+    width: 100px;
+    
+}
+.price{
+    position: absolute;  
+      left: 25%;
+      top: 350px;
+     
+}
+.priceimg{
+    width: 80%;
+     position: absolute;
+      top: 450px;
+     left: 20%; 
+      display: flex; 
+      flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: space-evenly; 
+ }
+ .priceimg img{
+    width: 100px;
+    
+}
+.banner img{
+    width: 900px;
+    position: absolute;
+    top: 650px;
+    left: 30%;
+}
+.kidcloth{
+    position: absolute;
+    top: 900px;
+    left: 25%;
+}
+.descrip{
+    position: absolute;
+    top: 950px;
+    left: 25%;
+}
+.cloth{
+    position: absolute;
+    top: 1400px;
+    left:25%;
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cloth img{
+    width: 300px;
+}
+.cloth h3{
+    position: absolute;
+    top: -150px;
+    left: 35%;
+}
