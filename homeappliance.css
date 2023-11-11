@@ -1,0 +1,178 @@
+*{
+    margin:0;
+}
+body{
+    background-color: aqua;
+}
+header{
+    height:70px;
+    width:100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    color: #E5E3E2 ;
+    
+
+}
+header img{
+    width: 120px;
+}
+header .head-loc{
+    display: flex;
+    height: fit-content;
+    width: 300px;
+}
+.head-loc span{
+    font-size: 30px;
+
+}
+.loc-name p{
+    font-family: 'Gabarito',cursive;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0%;
+}
+.loc-name h5{
+    font-family: 'Hind', sans-serif; 
+    font-size: 15px;
+}
+.flag{
+    display: flex;
+    align-items: center
+}
+.flag img{
+    height:15px ;
+    width: 20px;
+    position: relative;
+    bottom: 3px;
+}
+.sign-in{
+    height: fit-content;
+}
+.sign-in p{
+    font-family: 'Gabarito',cursive;
+    font-weight: lighter;
+    font-size: 10px;
+    margin: 0;
+
+}
+.sign-in h5{
+    font-family: 'Hind', sans-serif; 
+    font-size: 15px;
+
+
+}
+.cart{
+    width: 80px;
+}
+.cart a{
+    text-decoration: none;
+    color: #E5E3E2;
+    height: fit-content;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+.sidebar{
+    position: absolute;
+    left:0%;
+    top: 150px;
+    height: 1500px;
+    width: 300px;
+    border-right:1px black solid ;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+}
+ .s1{
+    position: absolute;
+    left: 0;
+    
+}
+.s2{
+    position: absolute;
+    top:250px;
+}
+.s3{
+    position: absolute;
+    top: 520px;
+}
+.s4{
+    position: absolute;
+    top: 720px;
+}
+.s5{
+    position: absolute;
+    top: 920px;
+}
+.s6{
+    position: absolute;
+    top: 1000px;
+}
+.homeimg{
+    height: 100px;
+    width: 80%;
+    position:absolute;
+    top: 150px;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.himg{
+    height: 300px;
+    width: 950px;
+    position:absolute;
+    top: 350px;
+    left: 30%;
+   
+}
+.product
+{
+   
+    position: absolute;
+    left: 20%;
+    background-color: gainsboro;
+    height: fit-content;
+    width: 80%;
+    top: 650px;}
+.kitchen{
+    display: flex;
+     flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: azure;
+}
+.kitchen img{
+    width: 200px;
+    position: relative;
+    top: 80px;
+}
+.k1{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.bed{
+    display: flex;
+     flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: azure;
+}
+.bed img{
+    width: 200px;
+    position: relative;
+    top: 200px;
+}
+.b1{
+    position:absolute;
+    left: 10px;
+    top: 370px;
+}

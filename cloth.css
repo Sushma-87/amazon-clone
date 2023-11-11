@@ -1,0 +1,173 @@
+*{
+    margin:0;
+}
+body{
+    background-color: aqua;
+}
+header{
+    height:70px;
+    width:100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    color: #E5E3E2 ;
+    
+
+}
+header img{
+    width: 120px;
+}
+header .head-loc{
+    display: flex;
+    height: fit-content;
+    width: 300px;
+}
+.head-loc span{
+    font-size: 30px;
+
+}
+.loc-name p{
+    font-family: 'Gabarito',cursive;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0%;
+}
+.loc-name h5{
+    font-family: 'Hind', sans-serif; 
+    font-size: 15px;
+}
+.flag{
+    display: flex;
+    align-items: center
+}
+.flag img{
+    height:15px ;
+    width: 20px;
+    position: relative;
+    bottom: 3px;
+}
+.sign-in{
+    height: fit-content;
+}
+.sign-in p{
+    font-family: 'Gabarito',cursive;
+    font-weight: lighter;
+    font-size: 10px;
+    margin: 0;
+
+}
+.sign-in h5{
+    font-family: 'Hind', sans-serif; 
+    font-size: 15px;
+
+
+}
+.cart{
+    width: 80px;
+}
+.cart a{
+    text-decoration: none;
+    color: #E5E3E2;
+    height: fit-content;
+}
+
+.title{
+    height:40px;
+    width: 100%;
+    background-color:rgb(108, 51,10);
+
+    
+}
+.title a{
+    text-decoration: none;
+    color: beige;
+    padding: 5px 25px;
+  top: 7px;
+    font-size: 15px;
+    /* align-items: center; */
+    position: relative;
+}
+
+.title a:hover{
+    color: white;
+    border: 1px whitesmoke solid;
+    border-radius: 7px;
+}
+.cloth {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+    
+}
+
+
+.cloth a{
+    text-decoration: none;
+    color: #0F1111;
+    
+}
+
+.home{
+    height:fit-content;
+    width: 85%;
+   background-color: rgb(217, 228, 228);
+    margin: auto;
+
+}
+.mensection{
+    
+        height:200px;
+        width: 98%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+        margin-right:5px;
+        margin-left: 5px;
+        bottom: auto;
+    
+}
+
+.mensection h3{
+position: relative;
+left: 30px;
+top: 0px;
+}
+.images img{
+    height:150px;
+    width: 150px;
+    display: flex;
+    
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.womensection{
+    
+    height:200px;
+    width: 98%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-right:5px;
+    margin-left: 5px;
+    bottom: auto;
+
+}
+.womensection h3{
+    position: relative;
+    left: 30px;
+    top: 0px;
+    }
+    .images2 img{
+        height:150px;
+        width: 150px;
+        display: flex;
+        
+    }
+    .images2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
